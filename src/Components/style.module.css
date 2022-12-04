@@ -1,0 +1,25 @@
+.filter {
+    background: linear-gradient(180deg, #F20493 0%, #9616C4 100%);
+}
+
+.textGradient {
+    background-image: linear-gradient(89.62deg, #F20493 18.03%, #9616C4 99.67%);
+    background-clip: text;
+    color: transparent;
+}
+
+.fourth:nth-child(4) div>img {
+    margin-top: -18px;
+}
+
+.divs div {
+    @apply w-[75px] h-[75px] border-[1px] border-[#EE0BD7] flex justify-center items-center rounded-[6px] bg-[#fff]/[0.1]
+}
+
+.list > li {
+    @apply cursor-pointer flex justify-center items-end gap-[9px]
+}
+
+.list  img {
+    @apply w-[12px] h-[16px] mb-[4px]
+}
