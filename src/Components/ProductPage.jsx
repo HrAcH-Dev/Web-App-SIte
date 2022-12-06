@@ -17,8 +17,8 @@ export default function ProductPage() {
             <div className={`w-[300px] h-[300px] rounded-full  blur-[140px] -z-10 absolute bottom-[8%] left-[-12%] ${styles.filter}`} />
         </div>
         <div className='col-start-7 col-span-6 relative'>
-            <img src={token} alt="token" />
-            <div className={`w-[300px] h-[300px] rounded-full  blur-[140px] -z-10 absolute bottom-[38%] right-[9%] ${styles.filter}`} />
+            <img src={token} alt="token" className='absolute top-[17%] right-[8%] lg:static ' />
+            <div className={`w-[300px] h-[300px] rounded-full  blur-[140px] -z-10 absolute bottom-[38%] lg:right-[9%] right-[-5%]  ${styles.filter}`} />
         </div>
     </Container>
   )

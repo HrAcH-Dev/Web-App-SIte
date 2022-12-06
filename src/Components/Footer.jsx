@@ -9,7 +9,7 @@ import styles from './style.module.css'
 export default function Footer() {
   return (
     <Container>
-        <div className='col-span-4 col-start-5 w-[85%] relative'>
+        <div className='col-span-4 col-start-3 ml-[40px] lg:ml-0 lg:col-span-4 lg:col-start-5 w-[85%] relative'>
             <div className='mb-[41px]'>
                 <img src={footerLogo} alt="footer-logo" />                
             </div>

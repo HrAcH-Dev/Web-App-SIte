@@ -6,7 +6,7 @@ import heroPhoto from '../images/hero-photo.svg'
 
 export default function FirstPage() {
   return (
-    <div className="w-full h-[750px] backdrop-blur-xl bg-no-repeat bg-center bg-cover" style={{backgroundImage: `url(${heroPhoto})`}}>
+    <div className="w-full  backdrop-blur-xl bg-no-repeat bg-center bg-cover" style={{backgroundImage: `url(${heroPhoto})`}}>
       <div className="w-full h-full backdrop-blur-xl" style={{backgroundImage: `url(${heroPhotoOpac})`}}>
         <Header />
         <HeroSection />

@@ -8,11 +8,11 @@ import styles from './style.module.css'
 export default function FaqItem() {
   return (
     <Container>
-        <div className={`col-span-6 relative mb-[103px]`}>
+        <div className={`col-span-full relative mb-[103px] lg:col-span-6`}>
             <img src={gamePeople} alt=""/>
             <div className={`w-[300px] h-[300px] rounded-full blur-[126px] -z-10 absolute right-[17%] bottom-[-10%] ${styles.filter}`} />
         </div>
-        <div className='col-span-6 mt-[63px]'>
+        <div className='col-start-2 col-span-6 mt-[63px] mb-[80px] lg:mb-0 lg:col-span-6 '>
             {FAQ_ITEMS.map(elem => {
                 return (
                     <div className='cursor-pointer w-full border-b-[1px] border-[#fff]/[0.20] py-[20px] text-white flex justify-start items-center'>
